@@ -1,0 +1,49 @@
+#Widgets{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.widget{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.widget:hover{
+    transform: translateY(-5);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+#Services{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   
+    
+}
+.service{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+     
+}
+.service:hover{
+    transform:translateY(-5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
