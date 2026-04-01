@@ -1,6 +1,6 @@
 import React from "react";
 import GetAllTasks from "../Components/GetAllTasks";
-import "../Styles/Tasks.css"
+import "../Styles/Tasks.css";
 
 function Tasks(){
     return(

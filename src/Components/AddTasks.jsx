@@ -23,29 +23,34 @@ function AddTasks(){
     return(
         <div>
             <h1>Add ur Tasks Here</h1>
+            <div id="form">
             <form onSubmit={handleSubmit}>
-
-            <label>task</label>
+            <div className="form">
+            <label>task:</label>
             <input type="text"
             value={task}
             placeholder="Enter the task"
             onChange={(e)=>SetTasks(e.target.value)}/>
-
+            </div>
+        <div className="form">
             <label>Date</label>
             <input type="Date"
             value={date}
             onChange={(e)=>SetDate(e.target.value)}/>
-
+        </div>
+        <div className="form">
             <label>Status</label>
             <select value={status} onChange={(e)=>SetStatus(e.target.value)}>
                 <option value="Pending">Pending</option>
                  <option value="Done">Done</option>
                   <option value="Progress">Progress</option>
             </select>
+            </div>
 
             <button type="submit">AddTask</button>
 
             </form>
+            </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Add from './Pages/Add'
 import Delete from './Pages/Delete'
 import Home from './Pages/Home'
-import Tasks from './Pages/tasks'
+import Tasks from "./Pages/TasksPage";
 import Update from './Pages/Update'
 import Navigation from './Components/Navigation'
 import './App.css'
